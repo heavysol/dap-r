@@ -1,0 +1,14 @@
+/* Created on 5 Dec '22 */
+
+/* 13 Jan '23: LEARN PHP OR SOME OTHER BACKEND LANG SO I CAN STORE THIS FORM'S RESULTS IN A DATABASE */
+
+body {background-color: black;}
+
+#former {margin-left: auto; 
+         margin-right: auto;
+        
+         color: yellow;
+         border: 2px yellow;}
+
+h1, h3, p, #intro, #tag, #resultFear, #resultAvoid, #resultNeu, #resultApp, #resultEsc {color: yellow;
+                                                                                     font-family: 'Franklin Gothic', Calibri, sans-serif;}

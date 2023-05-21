@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title> DAP-R test </title>
+  <link rel = 'stylesheet' href = 'DAP-R styles.css'>
+ </head>
+
+ <body>
+ <!-- 13 Jan '23: LEARN PHP OR SOME OTHER BACKEND LANG SO I CAN STORE THIS FORM'S RESULTS IN A DATABASE -->
+  <h1> Death Attitude Profile - Revised </h1>
+  <p style = 'visibility: visible;'>This questionnaire contains a number of statements related to different attitudes toward death. Read each statement carefully, and then decide the extent to which you agree or disagree. For example, an item might read: "Death is a friend." Indicate how well you agree or disagree by circling one of the following: SA = strongly agree; A=agree; MA= moderately agree; U= undecided; MD= moderately disagree; D=disagree; SD= strongly disagree. Note that the scales run both from strongly agree to strongly disagree and from strongly disagree to strongly agree. <br> If you strongly agreed with the statement, you would circle SA. If you strongly disagreed you would circle SD. If you are undecided, circle U. However, try to use the undecided category sparingly. <br> It is important that you work through the statements and answer each one. Many of the statements will seem alike, but all are necessary to show slight differences in attitudes.</p>
+  <div id = 'intro'></div>
+   <p> Fear of death (out of 7):  </p> <div id = 'resultFear'></div>
+   <p> Death avoidance (out of 5): </p> <div id = 'resultAvoid'></div>
+   <p> Neutral acceptance (out of 5): </p> <div id = 'resultNeu'></div>
+   <p> Approach acceptance (out of 10): </p> <div id = 'resultApp'></div>
+   <p> Escape acceptance (out of 5): </p> <dic id = 'resultEsc'></dic>
+  <br>
+  <button id = 'ret' onclick = 'count()'> Submit </button>
+
+  <div id = 'former'>
+  </div> 
+
+  <script src = 'DAP-R script.js'></script>
+  <!-- Created on 30 Nov '21 -->
+ </body>
+</html>
